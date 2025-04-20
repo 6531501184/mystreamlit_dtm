@@ -6,7 +6,7 @@ Created on Sun Apr 20 10:44:48 2025
 """
 
 import streamlit as st
-import numpy as py
+import numpy as np
 import pickle
 
 #load model
