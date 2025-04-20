@@ -14,7 +14,7 @@ with open('dtm_trained_model.pkl', 'rb') as f:
     dtm_model = pickle.load(f)
     
 #application title
-st.tile("Iris flower classification")
+st.title("Iris flower classification")
 st.write("Enter the feature of the iris flower: ")
 
 #Input_fields
